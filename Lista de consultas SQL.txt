@@ -1,0 +1,50 @@
+-- Listar cada socio con la fecha de fin de su membresía más reciente y los días que le restan.
+SELECT 
+    CONCAT(s.nombres, ' ', s.apellidos) AS NombreCompletoSocio, 
+    MAX(m.fecha_fin) AS fecha_final, 
+    DATEDIFF(MAX(m.fecha_fin), NOW()) AS dias_restantes 
+FROM socio s 
+JOIN membresia m ON m.id_socio = s.id_socio 
+GROUP BY s.id_socio, s.nombres, s.apellidos
+HAVING dias_restantes >= 0;
+
+-- Obtener el total recaudado por plan en un rango de fechas, ordenado de mayor a menor.
+SELECT 
+    p.nombre AS nombre_plan,
+    SUM(m.valor_pagado) AS total_recaudado
+FROM membresia m
+JOIN plan p ON m.id_plan = p.id_plan
+WHERE m.fecha_inicio BETWEEN '2026-07-01' AND '2026-07-31' 
+GROUP BY p.id_plan, p.nombre
+ORDER BY total_recaudado DESC;
+
+
+-- Identificar los socios cuya membresía vence dentro de los próximos 5 días.
+SELECT 
+    CONCAT(s.nombres, ' ', s.apellidos) AS socio,
+    MAX(m.fecha_fin) AS fecha_vencimiento,
+    DATEDIFF(MAX(m.fecha_fin), CURDATE()) AS dias_restantes
+FROM socio s
+JOIN membresia m ON s.id_socio = m.id_socio
+GROUP BY s.id_socio, s.nombres, s.apellidos
+HAVING dias_restantes BETWEEN 0 AND 5;
+
+
+-- Contar cuántos ingresos se registraron por día durante la última semana. 
+SELECT 
+    fecha_ingreso,
+    COUNT(id_ingreso) AS total_ingresos
+FROM ingreso
+WHERE fecha_ingreso >= DATE_SUB(CURDATE(), INTERVAL 7 DAY)
+GROUP BY fecha_ingreso
+ORDER BY fecha_ingreso DESC;
+
+
+-- Encontrar los socios activos que nunca han registrado un ingreso. 
+SELECT 
+    s.id_socio,
+    CONCAT(s.nombres, ' ', s.apellidos) AS socio,
+    s.correo
+FROM socio s
+LEFT JOIN ingreso i ON s.id_socio = i.id_socio
+WHERE s.activo = 1 AND i.id_ingreso IS NULL;

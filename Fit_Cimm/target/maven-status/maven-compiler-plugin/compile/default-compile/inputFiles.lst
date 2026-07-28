@@ -1,23 +1,23 @@
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Controlador\IngresoControl.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Controlador\MembresiaControlador.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Controlador\PlanControlador.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Controlador\ReporteControlador.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Controlador\SocioControlador.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\DAO\GestionIngreso.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\DAO\GestionMembresia.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\DAO\GestionPlan.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\DAO\GestionReportes.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\DAO\GestionSocios.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Modelo\EstadoMembresia.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Modelo\Ingreso.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Modelo\Membresia.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Modelo\Plan.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Modelo\ReporteRecaudo.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Modelo\Socio.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Servicios\IngresoService.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Servicios\MembresiaService.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Servicios\PlanService.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Servicios\ReporteService.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Servicios\SocioService.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Util\Conexion.java
-C:\Users\arang\source\repos\Fit_Cimm (1)\Fit_Cimm\Fit_Cimm\Fit_Cimm\src\main\java\Util\FuncionesFitt.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Controlador\IngresoControl.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Controlador\MembresiaControlador.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Controlador\PlanControlador.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Controlador\ReporteControlador.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Controlador\SocioControlador.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\DAO\GestionIngreso.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\DAO\GestionMembresia.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\DAO\GestionPlan.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\DAO\GestionReportes.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\DAO\GestionSocios.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Modelo\EstadoMembresia.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Modelo\Ingreso.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Modelo\Membresia.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Modelo\Plan.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Modelo\ReporteRecaudo.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Modelo\Socio.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Servicios\IngresoService.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Servicios\MembresiaService.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Servicios\PlanService.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Servicios\ReporteService.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Servicios\SocioService.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Util\Conexion.java
+C:\Users\PC_21\Music\ProyectoFitCIMM\FitCIMM\Fit_Cimm\src\main\java\Util\FuncionesFitt.java
