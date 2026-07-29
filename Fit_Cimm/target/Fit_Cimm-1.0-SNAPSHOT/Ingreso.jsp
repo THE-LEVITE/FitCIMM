@@ -258,7 +258,7 @@
                 </div>
             </c:if>
 
-            >
+            
             <div class="card-custom">
                 <div class="card-header">
                     <i class="bi bi-door-open"></i> Registrar Ingreso
@@ -280,7 +280,7 @@
                     </form>
                 </div>
             </div>
-            >
+            
             <div class="card-custom">
                 <div class="card-header">
                     <i class="bi bi-calendar3"></i> Consultar Ingresos por Fecha
