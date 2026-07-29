@@ -315,7 +315,7 @@
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>ID Socio</th>
+                                        <th>Nombre Socio</th>
                                         <th>Fecha</th>
                                         <th>Hora</th>
                                     </tr>
@@ -324,7 +324,7 @@
                                     <c:forEach var="ingreso" items="${listaIngresos}" varStatus="status">
                                         <tr>
                                             <td>${status.index + 1}</td>
-                                            <td><strong>${ingreso.id_socio}</strong></td>
+                                            <td><strong>${ingreso.nombreSocio}</strong></td>
                                             <td>${ingreso.fecha_ingreso}</td>
                                             <td>
                                                 <span class="badge-time">${ingreso.hora_ingreso}</span>

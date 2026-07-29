@@ -91,7 +91,7 @@ public class GestionIngreso {
 
         List<Ingreso> listIngreso = new ArrayList<>();
 
-        String query = "select * from ingreso where fecha_ingreso = ?;";
+        String query = "select s.nombres , i.* from ingreso i join socio s on s.id_socio = i.id_socio where fecha_ingreso = ?;";
 
         try (Connection conn = Conexion.getConexion(); PreparedStatement ps = conn.prepareStatement(query)) {
 
@@ -105,6 +105,7 @@ public class GestionIngreso {
                     oIngreso.setFecha_ingreso(LocalDate.parse(rs.getString("fecha_ingreso")));
                     oIngreso.setHora_ingreso(LocalTime.parse(rs.getString("hora_ingreso")));
                     oIngreso.setId_socio(rs.getInt("id_socio"));
+                    oIngreso.setNombreSocio(rs.getString("nombres"));
 
                     listIngreso.add(oIngreso);
 

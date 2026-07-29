@@ -221,7 +221,7 @@
                 </div>
             </c:if>
 
-            >
+            
             <div id="registrar" class="card card-form">
                 <div class="card-header">
                     <i class="bi bi-person-plus"></i> Registrar Nuevo Socio
@@ -251,7 +251,7 @@
                             </div>
                             <div class="col-md-4 mb-3">
                                 <label class="form-label">Teléfono</label>
-                                <input type="number" name="telefono" class="form-control form-control-lg-custom" 
+                                <input type="tel" name="telefono" class="form-control form-control-lg-custom" 
                                        placeholder="Número de teléfono">
                             </div>
                             <div class="col-md-4 mb-3">

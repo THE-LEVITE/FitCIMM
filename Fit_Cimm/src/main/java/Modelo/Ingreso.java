@@ -12,21 +12,31 @@ import java.time.LocalTime;
  * @author PC_21
  */
 public class Ingreso {
- private int id_ingreso;
- private int id_socio;
- private LocalDate fecha_ingreso;
- private LocalTime hora_ingreso;
+
+    private int id_ingreso;
+    private int id_socio;
+    private LocalDate fecha_ingreso;
+    private LocalTime hora_ingreso;
+
+    private String nombreSocio;
 
     public Ingreso() {
     }
 
- 
- 
-    public Ingreso(int id_ingreso, int id_socio, LocalDate fecha_ingreso, LocalTime hora_ingreso) {
+    public Ingreso(int id_ingreso, int id_socio, LocalDate fecha_ingreso, LocalTime hora_ingreso, String nombre) {
         this.id_ingreso = id_ingreso;
         this.id_socio = id_socio;
         this.fecha_ingreso = fecha_ingreso;
         this.hora_ingreso = hora_ingreso;
+        this.nombreSocio = nombre;
+    }
+
+    public String getNombreSocio() {
+        return nombreSocio;
+    }
+
+    public void setNombreSocio(String nombreSocio) {
+        this.nombreSocio = nombreSocio;
     }
 
     public int getId_ingreso() {
@@ -60,6 +70,5 @@ public class Ingreso {
     public void setHora_ingreso(LocalTime hora_ingreso) {
         this.hora_ingreso = hora_ingreso;
     }
- 
- 
+
 }
